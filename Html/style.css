@@ -1,3 +1,7 @@
+/* For desktops */
+
+@media (min-width: 1025px) {
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -49,5 +53,5 @@ body{
     color: #675645;
     font-weight: bold;
   }
-
   
+}
