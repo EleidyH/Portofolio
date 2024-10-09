@@ -9,7 +9,7 @@
   body {
     font-family: "Goldman", cursive;
     background-image: url("img/background.jpeg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -17,7 +17,7 @@
   nav {
     display: flex;
     width: 100%;
-    padding: 2rem;
+    padding: 0.5rem;
     min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
@@ -31,7 +31,7 @@
     list-style-type: none;
   }
   nav li {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0 4rem 0 4rem;
   }
   nav a {
@@ -41,5 +41,18 @@
   nav img {
     width: 5vw;
   }
+
+  nav a:hover {
+    background-color: white;
+    color: #00a8c7;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    padding-top: 23%;
+    font-size: 95px;
+  }
+
 
   
