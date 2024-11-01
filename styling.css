@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #7B9893;
 } 
 
 nav {
-    background-color: darkgrey;
+    background-color: rgb(209, 82, 88, 0.5);
 }
 
 nav ul{
@@ -26,11 +26,11 @@ nav a{
     padding: 16px;
     text-decoration: none;
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 nav a:hover {
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(254, 245, 223, 0.5);
     transition: 1s;
 }
 
