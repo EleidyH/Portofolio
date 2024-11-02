@@ -9,28 +9,59 @@ body {
 
 nav {
     background-color: rgb(209, 82, 88, 0.5);
-}
-
-nav ul{
+    padding: 1rem 2rem 1rem 2rem;
     display: flex;
-    list-style-type: none;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 
-nav li{
-    height: 50px;
+.logo h1 {
+    font-size: 27px;
+    color: white;
 }
 
-nav a{
-    padding: 16px;
-    text-decoration: none;
+ul{
+    list-style: none;
     display: flex;
-    color: rgb(255, 255, 255);
+    gap: 3rem;
 }
 
-nav a:hover {
+li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 10px;
+    transition: 0.6s;
+}
+
+li a:hover{
     background-color: rgb(254, 245, 223, 0.5);
-    transition: 1s;
 }
 
+.active{
+    background-color: rgb(254, 245, 223, 0.5);
+}
+
+button{
+    border: 2px solid rgb(254, 245, 223, 0.5);
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(227, 216, 190);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover{
+    background-color: rgb(254, 245, 223, 0.5);
+    color: white;
+}
+
+.shopcart {
+    list-style: none;
+    display: flex;
+}
