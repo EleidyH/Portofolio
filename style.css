@@ -1,12 +1,10 @@
-@media (max-width: 600px) {
-
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: #dcd6b4;
+    background-color: #3a4b50;
 }
 
 h1{
@@ -49,18 +47,19 @@ nav li a:hover{
     color: black;
 }
 
+@media (max-width: 600px) {
 /* Responsive styles */
-nav {
-    flex-direction: column; /* Stack items vertically */
-}
+    nav {
+        flex-direction: column; /* Stack items vertically */
+    }
 
-nav ul {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items */
-}
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items */
+    }
 
-nav li {
-    padding: 10px 0; /* Adjust padding for smaller screens */
-}
+    nav li {
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
 
 }
