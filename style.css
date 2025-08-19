@@ -4,7 +4,12 @@
 }
 
 body{
-    background-color: #3a4b50;
+    background: rgba(96, 39, 161, 0.342); /* White background with transparency */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    backdrop-filter: blur(10px); /* Blurring effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    color: #000000; /* Text color */
 }
 
 h1{
@@ -12,54 +17,6 @@ h1{
     text-align: center;
     font-variant: small-caps;
     padding: 15px;
-    background-color: antiquewhite;
+    margin: -15px;
 }
 
-nav{
-    display: flex;
-    justify-content: center;
-    background-color: #61ab6e;
-    padding: 20px;
-}
-
-nav ul{
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-nav li{
-    padding: 0 50px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    border-radius: 30px;
-    transition: background-color 0.3s;
-}
-
-nav li a:hover{
-    background-color: beige;
-    color: black;
-}
-
-@media (max-width: 600px) {
-/* Responsive styles */
-    nav {
-        flex-direction: column; /* Stack items vertically */
-    }
-
-    nav ul {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items */
-    }
-
-    nav li {
-        padding: 10px 0; /* Adjust padding for smaller screens */
-    }
-
-}
