@@ -2,7 +2,7 @@
     --main-color: #694CEA;
     --bg-color: #f3eff07e;
     --bg-color2: #5F15BA;
-    --text-color: #40132C;
+    --text-color: #692d4e;
     --hover-color1: #955FDC;
     --shadow-color:#91334F;
 }
@@ -26,6 +26,7 @@ body{
 
 header{
     background-color: var(--bg-color);
+    width: 100%;
 }
 
 nav{
@@ -39,7 +40,7 @@ nav h1{
     font-size: 35px;
     color: var(--text-color);
     padding-left: 55px;
-    text-shadow: 4px 4px 7px var(--main-color);
+    text-shadow: 4px 4px 7px var(--shadow-color);
 }
 
 nav ul{
@@ -57,7 +58,7 @@ nav li{
 nav a{
     font-size: 30px;
     font-weight: bolder;
-    text-shadow: 4px 4px 7px var(--main-color);
+    text-shadow: 4px 4px 7px var(--shadow-color);
     color: var(--text-color);
 }
 
@@ -67,6 +68,58 @@ nav a:hover{
     transition-delay: 0.2s;
 }
 
-.aboutme{
-    background-color: azure;
+section {
+    padding: 40px 20px;
+    background-color: rgba(255, 255, 255, 0.792);
+}
+
+.aboutme, .skills, .projects, .learn {
+    margin: auto;
+}
+
+h2{
+    font-size: 3rem;
+    color: var(--text-color);
+    text-shadow: 2px 2px 5px var(--shadow-color);
+}
+
+img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.skills ul, .projects ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.skills li, .projects li {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer.contact {
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer li {
+    font-weight: bold;
+    color: var(--text-color);
+    text-shadow: 4px 4px 7px var(--main-color);
+    font-size: 1.5rem;
 }
