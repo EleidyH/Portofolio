@@ -1,22 +1,72 @@
+:root{
+    --main-color: #694CEA;
+    --bg-color: #f3eff07e;
+    --bg-color2: #5F15BA;
+    --text-color: #40132C;
+    --hover-color1: #955FDC;
+    --shadow-color:#91334F;
+}
+
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body{
-    background: rgba(96, 39, 161, 0.342); /* White background with transparency */
+    background: url('img/skateclosup.jpg') no-repeat center center fixed;
+    background-size: cover;
     border-radius: 15px; /* Rounded corners */
-    padding: 20px; /* Space inside the box */
     backdrop-filter: blur(10px); /* Blurring effect */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     color: #000000; /* Text color */
 }
 
-h1{
-    font-size: 36px;
-    text-align: center;
-    font-variant: small-caps;
-    padding: 15px;
-    margin: -15px;
+header{
+    background-color: var(--bg-color);
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav h1{
+    font-size: 35px;
+    color: var(--text-color);
+    padding-left: 55px;
+    text-shadow: 4px 4px 7px var(--main-color);
+}
+
+nav ul{
+    display: flex;
+    overflow: hidden;
+}
+
+nav li{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+nav a{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 4px 4px 7px var(--main-color);
+    color: var(--text-color);
+}
+
+nav a:hover{
+    color: #955FDC;
+    text-shadow: 2px 2px 5px var(--shadow-color);
+    transition-delay: 0.2s;
+}
+
+.aboutme{
+    background-color: azure;
+}
