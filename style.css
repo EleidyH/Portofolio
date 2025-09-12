@@ -104,10 +104,10 @@ h2{
 }
 
 .skills {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
-.skills ul, .projects ul {
+.skills ul, .projects ul, .learn ul{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -115,22 +115,45 @@ h2{
     justify-content: center;
 }
 
-.skills li, .projects li {
+.skills li, .projects li, .learn li {
     background-color: var(--main-color);
     color: white;
     text-shadow: 2px 2px 5px var(--footer-color);
-    padding: 50px 50px;
+    padding: 30px 50px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 45px;
     font-style: italic;
 }
 
+.projects h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.projects p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
 .learn p {
     display: flex;
     justify-content: center;
     font-style: italic;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px var(--footer-color);
 }
+
+.learn h3{
+    display: flex;
+    justify-content: center;
+}
+
 
 footer.contact {
     background-color: var(--bg-color);
@@ -150,4 +173,15 @@ footer li {
     color: var(--footer-color);
     text-shadow: 4px 4px 7px var(--main-color);
     font-size: 3rem;
+}
+
+footer a {
+    color: var(--footer-color);
+}
+
+footer p{
+    padding-top: 20px;
+    font-size: 20px;
+    color: var(--footer-color);
+    font-weight: bold;
 }
