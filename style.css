@@ -91,7 +91,7 @@ section {
 .aboutme p{
     margin-top: 6.5%;
     margin-left: 40%;
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;
 }
 
@@ -179,6 +179,12 @@ footer li {
 
 footer a {
     color: var(--footer-color);
+}
+
+footer a:hover{
+    color: #955FDC;
+    text-shadow: 2px 2px 5px var(--shadow-color);
+    transition-delay: 0.2s;
 }
 
 footer p{
