@@ -89,7 +89,7 @@ section {
 }
 
 .aboutme p{
-    margin-top: 6.5%;
+    margin-top: 3%;
     margin-left: 40%;
     font-size: 30px;
     font-style: italic;
@@ -101,15 +101,19 @@ h2{
     font-size: 3rem;
     color: var(--text-color);
     text-shadow: 2px 2px 5px var(--shadow-color);
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-style: italic;
 }
 
-.skills {
+.skills, .learn {
     padding-top: 10%;
 }
 
-.skills ul, .projects ul, .learn ul{
+.learn{
+    padding-bottom: 15%;
+}
+
+.skills ul, .projects ul, .learn ul, .sideproj ul{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -117,7 +121,7 @@ h2{
     justify-content: center;
 }
 
-.skills li, .projects li, .learn li {
+.skills li, .projects li, .learn li, .sideproj li {
     background-color: var(--main-color);
     color: white;
     text-shadow: 2px 2px 5px var(--footer-color);
@@ -140,7 +144,7 @@ h2{
     font-size: 20px;
 }
 
-.learn p {
+.sideproj p {
     display: flex;
     justify-content: center;
     font-style: italic;
@@ -151,7 +155,7 @@ h2{
     text-shadow: 2px 2px 5px var(--footer-color);
 }
 
-.learn h3{
+.sideproj h3{
     display: flex;
     justify-content: center;
 }
